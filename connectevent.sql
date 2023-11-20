@@ -55,3 +55,10 @@ create table sponsorer(
     FOREIGN KEY( evenement_id) REFERENCES evenement(id),
     FOREIGN KEY (sponsor_id) REFERENCES sponsor(id)   
 );
+-- pour ecrire dans une DB-- 
+insert into lieu_devenement (ville, addresse) values
+('Tanger','Grande Salle Royale du Royal Tulip City Center'),
+('Tanger','Palais Malak'),
+('Tanger','Salle Des Fêtes Malabata, malabata, tanger'),
+('Youssoufia', 'Boulevard moulay youssef,Salle agora'),
+('Rabat','villa des arts de rabat, 10 Rue Beni Mellal, Hassan, RABAT');
